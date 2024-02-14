@@ -1,2 +1,2 @@
 #!/bin/bash
-$ gcc -E .s > .o
+gcc -c .s
