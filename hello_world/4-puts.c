@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*maint - me cago en c
+*main - me cago en c
 *Return: el codigo de error
 */
 
