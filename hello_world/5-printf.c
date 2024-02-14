@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
 *main - que caca c
 *Return: c it's a fa***** sh**
 */
+
 int main(void)
 {
 
