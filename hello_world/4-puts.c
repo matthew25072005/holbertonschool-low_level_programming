@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-int main() {
-    // Using puts to print the desired string
-    puts("Programming is like building a multilingual puzzle");
+/**
+*maint - me cago en c
+*Return: el codigo de error
+*/
 
-    // Printing a new line
-    puts("");
+int main(void)
+{
 
-    // Ending the program with the value 0
-    return 0;
+	 puts("Programming is like building a multilingual puzzle");
+
+
+	return 0;
 }
