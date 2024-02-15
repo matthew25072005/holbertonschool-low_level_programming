@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	putchar('0' + 0 * 1));
+	putchar('0' + (0 * 1));
 	putchar('\n');
 
 	return (0);
