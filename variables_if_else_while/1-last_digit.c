@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int n;
+int n;
 
 	srand(time(0));
 
