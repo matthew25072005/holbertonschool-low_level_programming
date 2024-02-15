@@ -2,11 +2,10 @@
 
 /**
 *main - shit
-*Re
+*Return: espero que ande
 */
-int main(void) {
-
-	printf("%s%s%s\n", "with", " proper grammar, but the outcome is a piece of art", ",");
-
+int main(void)
+{
+printf("\"with", " proper grammar, but the outcome is a piece of art", ",");
 	return (0);
 }
