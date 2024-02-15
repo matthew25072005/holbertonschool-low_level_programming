@@ -7,9 +7,8 @@
 
 int main(void)
 {
-	for (c = 'a'; c <= 'z'; c++)
 	putchar('0' + (0 * 1));
 	putchar('\n');
-
+	for (c = '0'; c <= '9'; c++)
 	return (0);
 }
