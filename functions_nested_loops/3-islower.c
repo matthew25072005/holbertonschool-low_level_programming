@@ -3,6 +3,7 @@
 /**
 *_islower - its true
 *Return: 0
+*@c: The character to be checked.
 */
 
 int _islower(int c)
