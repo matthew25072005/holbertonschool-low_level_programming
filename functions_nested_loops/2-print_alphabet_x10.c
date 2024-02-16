@@ -1,10 +1,10 @@
-#include <studio.h>
+#include <2-alphabet_x10>
 
 /**
-*print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+*print_alphabet - Prints 10 times the alphabet, in lowercase.
 *return: 0
 */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int count = 0;
 	char letter;
