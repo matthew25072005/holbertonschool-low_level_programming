@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
 *_islower - its true
