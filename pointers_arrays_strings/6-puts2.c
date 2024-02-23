@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
-*
-*
+*puts2 - costo pero se logro
+*@s: The string to be modified
 */
 
 void puts2(char *s)
 {
-	int a = 0, b;
+	int a = 0;
 
-	while (s[a] != '\0')
-		a++;
-
-	a--;
-
-	for (b = 0; b <= a; b++)
+	for (; s[a] != '\0'; a++)
 	{
-		s[b] = s[a];
+		if ((a % 2) == 0)
+			_putchar(s[a]);
+		else
+			continue;
 	}
+	_putchar('\n');
 }
