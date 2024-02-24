@@ -9,7 +9,7 @@ int main(void)
 {
     char *s;
 
-    str = "56789";
+    s = "0123456789";
     puts_half(s);
     return (0);
 }
