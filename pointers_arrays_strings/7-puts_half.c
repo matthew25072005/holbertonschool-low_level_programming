@@ -7,19 +7,19 @@
 
 void puts_half(char *s)
 {
-	int a = 0, b;
+	int a = 0, b = 0, c;
 
-	while (s[a] != '\0')
-		a++;
-
-	a--;
+	while (s[a++])
+		b++;
 
 	if ((b % 2) == 0)
-		n = b / 2;
+		c = b / 2;
 
+	else
+		c = (b + 1) / 2;
 
-	for (b = 5; b <= a; b++)
-		_putchar(s[b]);
+	for (a = c; a < b; a++)
+		_putchar(s[a]);
 
 	_putchar('\n');
 }
