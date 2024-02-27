@@ -1,3 +1,5 @@
+char *_memset(char *s, char b, int n);
+
 char *leet(char *);
 
 char *cap_string(char *);
