@@ -1,4 +1,5 @@
-#include <studio>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Prints the multiplication of two numbers, followed by a new line.
  * @argc: The number of arguments supplied to the program.
@@ -13,12 +14,13 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error\n")
-		return (1)
+		printf("Error\n");
+
+		return (1);
 	}
 
-	a = atoi(argc[1]);
-	b = atoi(argc[2]);
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
 	c = a * b;
 
 	printf("%d\n", c);
