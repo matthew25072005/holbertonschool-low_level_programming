@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -26,7 +26,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	filler = mem;
 
-	for (index = 0; a < (size * nmemb); a++)
+	for (a = 0; a < (size * nmemb); a++)
 		filler[a] = '\0';
 
 	return (mem);
